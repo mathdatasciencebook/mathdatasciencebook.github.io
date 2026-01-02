@@ -1,0 +1,42 @@
+<!--#include virtual="/templates/header.html" -->
+
+<h2>Errata for First Edition</h2>
+
+<ul>
+	<li>
+		<b>Page 53:</b> In the proof of $\text{trace}(AB)=\text{trace}(BA)$, if $A$ is $d\times N$ and $B$ is $N\times d$,
+		the display should be
+		$$\sum_{i=1}^d (AB)_{ii}=\sum_{i=1}^d \sum_{k=1}^N a_{ik}b_{ki}=
+		\sum_{k=1}^N \sum_{i=1}^d b_{ki}a_{ik}=\sum_{k=1}^N (BA)_{kk}.$$
+	</li>
+	<li><b>Page 66:</b> The second display should be $x^+= C^+f = \dfrac1{10}(-8,-5,-2,1,4)$.
+	</li>
+	 <li><b>Page 74:</b> The first and second displays should be  
+		 $$10f = -8a-5b-2c +d+4e,\qquad
+		 a = a+0f,\quad b = 2a+f,\quad c= 3a+2f,\quad d= 4a+3f,\quad e=5a+4f.$$
+        </li>
+	<li><b>Page 208:</b> In Archimedes' axiom, "than that" should be "then that".
+	</li>
+	   <li>
+                <b> Page 259:</b> In Exercise 4.5.13, for the converse, assume also $f(x)$ is convex.
+        </li>
+	 <li>
+		 <b> Page 377:</b> In the footnote, the $p$-value should be $Prob(|T| &gt; 1)$, and the speed of light is $\sqrt{d}$.
+        </li>
+	<li><b>Page 396:</b>  Weights $m$, $w$ are row vectors and samples $x$, $\tilde x$ are column vectors, so the display should be
+		$$w=(m,b),\qquad \tilde x=\begin{pmatrix} x\\1\end{pmatrix}.$$
+	</li>
+	<li><b>Page 410:</b> Equation (7.2.13) corresponds to edge $(j,i)$, not $(i,j)$.</li>
+	<li><b>Page 411:</b> The weight matrix $M$ and the bias vector $b$ are 
+	$$M= \begin{pmatrix} m_1\\ m_2\\ m_3\end{pmatrix},\qquad b=\begin{pmatrix} b_1\\ b_2\\ b_3\end{pmatrix},\qquad W=(M,b),$$
+	so $M$ is $3\times4$, $b$ is a column vector in ${\bf R}^3$, and the augmented weight matrix $W$ is $3\times5$.
+	</li>
+	<li><b>Page 457:</b> The last sentence before the code should be "a matrix with a single column".</li>
+	<li>
+		<b>Page 520:</b> At bottom, the last sentence should be "the <i>hermitian product</i>  $P\overline{P'}$ of $P$ and $P'$".
+	</li>
+	<li><b>Page 543:</b> The definition of <i>closed</i> should be "A set $K$ is <i>closed</i> if $x_n$ in $K$ and $x_n\to x$ implies $x$ is in $K$".</li>
+</ul>
+
+
+<!--#include virtual="/templates/footer.html" -->

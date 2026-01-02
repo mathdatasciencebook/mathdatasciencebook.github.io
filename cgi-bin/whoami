@@ -1,0 +1,7 @@
+#!/usr/bin/bash
+#
+#
+/usr/bin/echo "Content-Type: text/html;"
+/usr/bin/echo
+/usr/bin/echo
+/usr/bin/echo 1

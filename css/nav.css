@@ -1,0 +1,31 @@
+
+h2 { font-weight: 300; font-size: 1.3vmax; }
+
+nav { width: 100%; height: auto; display: block; padding-bottom: 2vh; }
+
+ul { list-style-type: none; }
+
+nav li { display:  inline-block; text-align: center; padding: 5px 10px;  font-size: 0.8vmax; font-weight: 300;}
+
+body { 
+	font-family: "Ubuntu"; 
+        height: 100vh; /* or height: 100% */
+        width: 100vw; /* or width: 100% */
+        margin: 0; /* Remove default margins */
+        padding: 0; /* Remove default padding */
+}
+
+html {
+        height: 100%; /* Ensure the html element takes up the full height */
+    }
+
+p { padding-left: 1vw; padding-right: 1vw; font-weight: 200; line-height: 1.3; font-size: 1vw; }
+
+li { margin-bottom: .5vmax; font-size: 1vw; }
+
+a { text-decoration: none; }
+
+/*
+grad { background: #fffff; } /*ADD8E6; } /*background: -webkit-linear-gradient(to right, #b2e6fa, #e7eb80 10%); background: linear-gradient(to left, #e7eb80 10%, #b2e6fa);   }
+*/
+.MathJax { font-size: 1.2vmax!important; }

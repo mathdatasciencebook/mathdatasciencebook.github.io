@@ -1,0 +1,44 @@
+body {
+font-family: "Merriweather Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+background-color:#ffffff;
+opacity: 0.8;
+}
+
+td, ul, li, p {
+	padding: 5px;
+  list-style-type: none;
+}
+
+h2,h1 {
+font-weight: 400;
+}
+
+h3 { font-weight: 200;}
+
+
+.normal{
+  font-weight: 200;
+}
+
+.light{
+  font-weight: 100;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+
+ header {
+        margin: 0;
+        padding: 0;
+	z-index:1;
+      }
+
+#grad {
+background: #43C6AC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #F8FFAE, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F8FFAE, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
