@@ -1,11 +1,5 @@
 
-h1 { 
-	align: bottom; 
-	margin-top: 0; 
-	margin-bottom: 0; 
-	font-weight: 300; 
-	font-size: 5vmax;
-} 
+h1 { align: bottom; margin-top: 0; margin-bottom: 0; font-weight: 300; font-size: 5vmax; } 
 
 hr { margin: 0.5rem 0; }
 
@@ -17,7 +11,7 @@ nav li { display:  inline-block; text-align: center; padding: 5px 10px;  }
 
 li { margin-bottom: 10px; }
 
-body { font-family: "Times New Roman", Times, serif; font-size: 1.5vw; }
+body { font-family: "Times New Roman", Times, serif; font-size: 1.5vw; background: #fff; }
 
 p { padding: 0 0.5rem; font-weight: 300; line-height: 1.25; font-size: 1.5vw; }
 
@@ -26,9 +20,9 @@ nav { width: 100%; height: auto; display: block; padding-bottom: 2vh; font-size:
 
 a { text-decoration: none; }
 
-#grad {background: #FFF; }
-
 @media only screen and (max-width: 1150px) {
+
+	h1 { align: bottom; margin-top: 0; margin-bottom: 0; font-weight: 300; font-size: 3vmax; }
 
         p { padding: 0 0.5rem; font-weight: 300; line-height: 1.3; font-size: 2.5vw; }
 
