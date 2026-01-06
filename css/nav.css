@@ -33,7 +33,7 @@ a { text-decoration: none; }
 
 	body { font-family: "Times New Roman", Times, serif; font-size: 3.5vmax; }
 
-	img { padding: 5%; max-width: 100%; height: auto; }
+	img { align: center; max-width: 90%; height: auto; }
 
         @media only screen and (orientation : landscape) { li { padding: 0 0.5rem; font-weight: 300; line-height: 1.2; font-size: 2.5vmax; } }
 
