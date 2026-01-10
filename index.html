@@ -1,28 +1,17 @@
 ---
 ---
 
- {% include header.html %}
-
-
-<h2>Summary</h2>
+{% include header.html %}
 
 <p>
-<i>Math for Data Science</i>
-covers the elements of linear algebra, probability, statistics, and calculus most relevant to data science. Applications include dimensionality reduction, machine learning, optimization techniques, neural network training, stochastic gradient descent, square and logistic regression, and accelerated methods.
+<i>Math for Data Science</i> covers the elements of linear algebra, probability, statistics, and calculus most relevant to data science. Applications include dimensionality reduction, machine learning, optimization techniques, neural network training, stochastic gradient descent, square and logistic regression, and accelerated methods.
+</p>
+<p>
 Throughout, Python code is woven into the narrative, to be experienced <em> in vivo </em> --- alive within context, not examined <em> in vitro.</em>
-All code is posted here and at the book's github site  <a href="https://mathdatasciencebook.github.io"><u>mathdatasciencebook.github.io</u></a>.
+All code is posted above under <a href='/files'><i>Files</i></a>.
 Also included are nine appendices providing background material and additional context, and 466 exercises.
 </p>
 
-<h2>History</h2>
-
-<p>
-A neural network is a function defined by parameters, or weights. Given a large dataset inserted into the network, the goal is to train the network: to adjust the weights so the resulting network outputs closely match the dataset targets. This is achieved by using gradient descent to navigate the error landscape in weight space, thereby minimizing the error between outputs and targets.
-</p><p>
-Historically, training neural networks at scale was impractical due to the large number of weights involved. A breakthrough came with stochastic gradient descent (SGD), first introduced in the 1950s and widely applied to neural networks in the 1980s. SGD enables convergence to a minimum error by following approximations of the true gradient, even when those approximations are noisy.
-</p><p>
-While computing the full gradient requires summing over many terms, SGD estimates the gradient using small subsets of the dataset, known as minibatches. This reduces computational demands while maintaining convergence, albeit at the cost of longer training times. Despite this trade-off, SGD has made large-scale neural network training feasible, paving the way for deep learning and AI.
-</p>
+{% include footer.html %}
 
 
- {% include footer.html %}
