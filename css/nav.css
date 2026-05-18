@@ -15,6 +15,9 @@ nav { width: 100%; height: auto; display: block; padding-bottom: 2vh; font-size:
 
 img { display: block; margin: 0 auto; max-width: 90%; height: auto; }
 
+.asterism-break { border: none; text-align: center; overflow: visible; }
+
+
 
 a { text-decoration: none; }
 
