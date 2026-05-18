@@ -1,6 +1,6 @@
 #logo { margin: 0.67rem 0.5rem 2rem; font-weight: 300; font-size: 3vw; }
 
-hr { margin: 0.5rem 0; }
+.asterism-break { border: none; text-align: center; overflow: visible; }
 
 iframe#pdf-js-viewer { padding: 0.5rem; display: block; }
 
