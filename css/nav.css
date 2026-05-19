@@ -1,8 +1,6 @@
 
 h1 { text-align: left; margin-top: 0; margin-bottom: 0; font-weight: 300; font-size: 4vmax; } 
 
-ul { list-style-type: none; }
-
 nav li { display:  inline-block; text-align: center; padding: 5px 10px;  }
 
 li { margin-bottom: 10px; }
